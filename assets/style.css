@@ -1,0 +1,43 @@
+.header {
+    padding:3rem;
+    background-color: #64B425;
+    color: #A6E377;
+}
+
+.header h1{
+    display: inline-block;
+    font-size: 3rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.header img{
+    display: flex;
+    float: left;
+    height: 8rem;
+    margin-top: -2rem;
+}
+
+.header nav {
+    padding-top: 3rem;
+    margin-right: .5rem;
+    float: right;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+header nav ul li {
+    display:inline-block;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+.header a {
+    text-decoration: none;
+    color:#2F6C00
+}
+
+
