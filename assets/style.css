@@ -1,0 +1,162 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding:3rem;
+    background-color: #64B425;
+    color: #A6E377;
+    border-bottom: 4px solid #005331;
+}
+
+.header h1{
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.header img{
+    display: flex;
+    float: left;
+    height: 8rem;
+    margin-top: -2rem;
+}
+
+.header nav {
+    padding-top: 3rem;
+    margin-right: .5rem;
+    float: right;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+header nav ul li {
+    display:inline;
+    font-size: 1.2rem;
+    margin-left: .5rem;
+}
+
+.header a {
+    color:#2F6C00
+}
+
+body{
+    background-color: #389871 ;
+    color: #005331;
+}
+
+main{
+    margin:2rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: right;
+    float:left;
+    border-right: 2px dashed #64B425;
+    min-width:12rem;
+    max-width:12rem;
+    margin: 10px;
+}
+
+.about-me{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-me p{
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    color: #005331;
+}
+
+.work {
+    display:flex;
+    margin-bottom: 3rem;
+}
+
+.work h2{
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+h3{
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    margin:-5rem 0 0 4rem;
+}
+
+.image-full {
+    position:relative;
+    max-width: 100%;
+    padding: 1rem;
+    border: 2px solid #005331;
+    margin: 1rem;
+}
+
+.image-half {
+    position:relative;
+    max-width: 100%;  
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #005331;
+}
+
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1{
+    position:relative;
+    max-width: 100%;
+   
+}
+
+.box2,
+.box3,
+.box4,
+.box5 {
+    position: relative;
+    max-width: 49%;
+    
+}
+.box2,
+.box4{
+    margin-right: 2%;
+}
+.contact-me ul{
+    text-align: center;
+}
+
+.contact-me li{
+    display:inline-block;
+    font-size: 1.5rem;
+    margin:3rem;
+}
+
+@media screen and (max-width: 767px){
+    .work {
+        flex:1 0 100%;
+          }
+    }
+    
+@media screen and (min-width: 768px) {
+    .work {
+          flex:1 0 50%;
+            }
+      }
+      
+@media screen and (min-width: 992px) {
+    .work {
+            flex:1 0 33%;
+              }
+      }
