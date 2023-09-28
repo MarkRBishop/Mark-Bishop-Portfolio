@@ -1,7 +1,9 @@
+/* Simply gets ride of the hyperlink decoration */
 a {
     text-decoration: none;
 }
 
+/* Adjusts the color scheme of header and elements and positioning of the elements within */
 .header {
     padding:3rem;
     background-color: #64B425;
@@ -44,15 +46,18 @@ header nav ul li {
     color:#2F6C00
 }
 
+/* color scheme for the rest of the page */
 body{
     background-color: #389871 ;
     color: #005331;
 }
 
+/* adjusting to frame things slightly better on the page */
 main{
     margin:2rem;
 }
 
+/* Section titles are moved to a column of their own on the left and adds a neat border break */
 h2{
     font-size: 2.5rem;
     text-align: right;
@@ -63,6 +68,7 @@ h2{
     margin: 10px;
 }
 
+/* formating and positioning the about me section */
 .about-me{
     display: flex;
     margin-top: 2rem;
@@ -72,9 +78,9 @@ h2{
 .about-me p{
     flex-wrap: wrap;
     font-size: 1.5rem;
-    color: #005331;
 }
 
+/*Formating and positioning of multiple elements in the work section. Adds the grid type layout */
 .work {
     display:flex;
     margin-bottom: 3rem;
@@ -115,24 +121,28 @@ h3{
     flex-wrap: wrap;
 }
 
+/* keeps box 1 larger than the others */
 .box1{
     max-width: 100%;
     margin-bottom: 1rem;
-   
 }
 
+/* Formats the smaller boxes to take up half of the space to have 2 rows and 2 columns */
 .box2,
 .box3,
 .box4,
 .box5 {
     max-width: 49%;
     margin: 1rem 0 1rem 0;
-    
 }
+
+/* simple adjustment to keep things orderly */
 .box2,
 .box4{
     margin-right: 2%;
 }
+
+/* Positioning of the contact links */
 .contact-me ul{
     text-align: center;
 }
@@ -144,7 +154,7 @@ h3{
 }
 
 
-
+/* media queries to help with formating of the page on devices with smaller viewports*/
 @media screen and (max-width: 767px){
     .box2,
     .box3,
