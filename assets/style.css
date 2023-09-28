@@ -10,7 +10,7 @@ a {
 }
 
 .header h1{
-    display: inline-block;
+    display: flex;
     font-size: 2.5rem;
     padding: 0.5rem;
     margin-left: 1rem;
@@ -24,9 +24,9 @@ a {
 }
 
 .header nav {
-    padding-top: 3rem;
-    margin-right: .5rem;
     float: right;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header nav ul {
@@ -35,7 +35,7 @@ a {
 }
 
 header nav ul li {
-    display:inline;
+    display:inline-block;
     font-size: 1.2rem;
     margin-left: .5rem;
 }
@@ -88,7 +88,7 @@ h2{
 h3{
     position: relative;
     font-size: 1.5rem;
-    color: white;
+    color: #80e433;
     margin:-5rem 0 0 4rem;
 }
 
@@ -116,8 +116,8 @@ h3{
 }
 
 .box1{
-    position:relative;
     max-width: 100%;
+    margin-bottom: 1rem;
    
 }
 
@@ -125,8 +125,8 @@ h3{
 .box3,
 .box4,
 .box5 {
-    position: relative;
     max-width: 49%;
+    margin: 1rem 0 1rem 0;
     
 }
 .box2,
@@ -143,20 +143,32 @@ h3{
     margin:3rem;
 }
 
+
+
 @media screen and (max-width: 767px){
-    .work {
-        flex:1 0 100%;
-          }
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        max-width: 100%;
+        margin-right: 0;
     }
-    
-@media screen and (min-width: 768px) {
-    .work {
-          flex:1 0 50%;
-            }
-      }
-      
-@media screen and (min-width: 992px) {
-    .work {
-            flex:1 0 33%;
-              }
-      }
+
+    h2{
+        font-size: 1rem;
+        max-width: 4rem;
+        min-width: 4rem;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .header nav{
+        display:flex;
+        justify-content: space-between;
+        float:none
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+}
