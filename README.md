@@ -44,4 +44,4 @@ With minor adjustments to the main CSS and the addition of the media queries, th
 While the application is incomplete, it provides a good basis to build off of in the future. 
 
 ## Links 
-
+https://markrbishop.github.io/Mark-Bishop-Portfolio/
