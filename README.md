@@ -45,3 +45,6 @@ While the application is incomplete, it provides a good basis to build off of in
 
 ## Links 
 https://markrbishop.github.io/Mark-Bishop-Portfolio/
+
+![alt text](https://github.com/MarkRBishop/Mark-Bishop-Portfolio/blob/main/assets/images/Portfolio1.png)
+![alt text](https://github.com/MarkRBishop/Mark-Bishop-Portfolio/blob/main/assets/images/portfolio2.png)
